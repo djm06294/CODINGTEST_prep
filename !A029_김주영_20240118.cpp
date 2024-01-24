@@ -1,4 +1,4 @@
-// 24.01.17 FRI
+// 24.01.21 SUN
 // JooYoung Kim
 // https://www.acmicpc.net/problem/17210
 
@@ -10,6 +10,6 @@ int main() {
     bool st;
     cin>>n>>st;
     for(int i=1; i<n; i++) {
-        if((i+1)%2)
+        if((i+1)%2);
     }
 }
