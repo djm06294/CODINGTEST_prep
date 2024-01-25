@@ -1,9 +1,10 @@
 // 24.01.21 SUN
 // JooYoung Kim
 // https://www.acmicpc.net/problem/17211
-
+ 
 #include <iostream>
 #include <bitset>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -43,6 +44,6 @@ int main() {
         }
     }
 
-    cout<<(int)(G_sum*1000)<<endl;
-    cout<<(int)(B_sum*1000)<<endl;
+    cout<<(int)(floor(G_sum*1000+0.5))<<endl;
+    cout<<(int)(floor(B_sum*1000+0.5))<<endl;
 }
