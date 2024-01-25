@@ -1,4 +1,4 @@
-// 24.01.26 FRI
+// 24.01.25 THU
 // JooYoung Kim
 // https://leetcode.com/problems/determine-if-string-halves-are-alike/description/
 
