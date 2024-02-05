@@ -56,5 +56,5 @@ string solution(vector<int> numbers) {
 }
 
 int main() {
-    solution({3, 30, 34, 5, 9});
+    cout<<solution({3, 30, 34, 5, 9});
 }

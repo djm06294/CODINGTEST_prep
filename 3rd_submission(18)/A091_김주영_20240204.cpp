@@ -14,12 +14,9 @@ public:
         int size = nums.size();
         int answer = size;
         int offset = 0;
-        for(auto i:nums) cout<< i<< " ";
-        cout<<endl;
 
         for(int i=0; i+offset<size; i++) {
             nums[i] = nums[i+offset];
-            cout<<"i"<<i<<"nums"<<nums[i]<<endl;
             while(nums[i]==val) {
                 answer--;
                 offset++;
@@ -27,11 +24,8 @@ public:
                     nums[i] = nums[i+offset];
                 else
                     nums[i] = 0;
-            cout<<"i"<<i<<"nums"<<nums[i]<<endl;
             }
         }
-        for(auto i:nums) cout<< i<< " ";
-        cout<<endl; cout<<answer<<endl;
 
         return answer;
     }

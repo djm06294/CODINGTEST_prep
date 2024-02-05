@@ -1,4 +1,8 @@
 // 메모리 차지 덜 하는 코드
+// 4,6,9,11월인 경우에는 30일을 더해주고, 2월이면 윤년인지 확인해주었다.
+// 내 코드와 다른 점은 각 month의 날짜들을 따로 저장해두지 않고 그냥 if 문을 통해 무슨 월인지 계산했다는 것 정도?
+// 크게 좋은 코드라는 생각이 들지는 않는다.
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -9,17 +13,12 @@ public:
     {
         if(year%100 != 0)
         {
-            if(year%4==0)
-            {
-                return 1;
-            }
+            if(year%4==0) return 1;
         }
         else
         {
             if(year%400==0)
-            {
                 return 1;
-            }
         }
         return 0;
     }
