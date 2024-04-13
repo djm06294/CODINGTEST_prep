@@ -1,3 +1,8 @@
+// 문제: 두 string을 구성하는 알파벳 중 동일하지 않은 하나의 알파벳 구하기.
+
+// string s의 모든 알파벳을 알파벳 행렬에 저장하고 string t의 알파벳들도 확인한 후 동일하지 않은 알파벳을 리턴한다.
+// 내 코드랑 거의 동일하다. 그냥 처음 cin, cout 속도를 줄여줘서 빠른듯 하다.
+
 class Solution {
 public:
     char findTheDifference(string s, string t) {

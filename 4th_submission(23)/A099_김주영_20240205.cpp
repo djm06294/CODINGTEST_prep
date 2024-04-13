@@ -2,6 +2,8 @@
 // JOOYOUNG KIM
 // https://leetcode.com/problems/valid-parentheses/description/
 
+// A128이랑 비슷한 문제.
+
 #include <iostream>
 #include <stack>
 using namespace std;

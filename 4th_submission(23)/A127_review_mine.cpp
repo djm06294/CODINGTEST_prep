@@ -1,4 +1,8 @@
+// 문제: 최소공배수 찾기
+
 // 내 옛날 코드. 시간이나 메모리 둘다 똑같음
+// 원리가 똑같음.
+
 #include <iostream>
 using namespace std;
 int main() {

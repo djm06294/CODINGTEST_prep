@@ -1,3 +1,7 @@
+// 문제: 그 날짜의 요일을 찾기
+
+// 특정 계산식을 사용해서 요일을 지정할 수 있다.
+
 class Solution {
 public:
     string dayOfTheWeek(int day, int month, int year) {

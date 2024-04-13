@@ -1,3 +1,6 @@
+// 문제: 여러개의 성능이 다른 로프로 들어올릴 수 있는 최대의 무게 구하기
+
+//
 // Copyright 2022 <jehan.yoon>
 #include <cstdio>
 #include <algorithm>

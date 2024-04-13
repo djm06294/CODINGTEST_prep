@@ -7,15 +7,6 @@
 #include <algorithm>
 using namespace std;
 
-// 24.02.08 THU
-// JOOYOUNG KIM
-// https://leetcode.com/problems/degree-of-an-array/
-
-#include <iostream>
-#include <vector>
-#include <algorithm>
-using namespace std;
-
 class Solution {
 public:
     int findShortestSubArray(vector<int>& nums) {

@@ -1,3 +1,7 @@
+// 문제: 0과 자연수가 섞여있는 행렬에서 모든 0을 뒤로 보내기.
+
+// 행렬의 첫 0과 그 이후 첫 0이 아닌 숫자의 인덱스를 구해서 swap하고 차례로 다음 0과 0이 아닌 숫자의 인덱스를 구하고 반복한다.
+
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {

@@ -1,3 +1,11 @@
+// 문제: 최대의 같은 숫자의 개수를 degree라고 할때, 동일한 degree를 유지하는 최소 길이의 subarray 길이 구하기. 행렬의 구성(순서)는 변하지 않는다.
+
+// 행렬에 등장하는 모든 숫자의 첫 등장 idx와 마지막 등장 idx, 그리고 등장한 횟수를 모두 각각의 unordered_map에 저장을 해주고, 등장 횟수가 최대인 애들만 그 텀을 계산해 최소값을 나타내는 애를 리턴해줬다. 
+// 모두 맵에 저장하니까 코드가 훨씬 간단해졌다.(이해하기 쉬워졌다)
+
+// unordered_map은 어떤 경우에 쓰는 것인지 궁금하다! 자료구조의 특징을 더 잘 알아야겠다.
+
+#include <unordered_map>
 class Solution {
 public:
     int findShortestSubArray(vector<int>& nums) {
