@@ -42,14 +42,14 @@ int main() {
     if(inputTxt.is_open()) { cin.rdbuf(inputTxt.rdbuf()); }
 
     int T = 10;
+    string columns[100] = "";   //이래도 초기화는 되는데 어차피 for문에서 초기화 해줘야해서 무의미하긴 함!
 
     for(int t=1; t<=T; t++) {
         int dump, count=0;    
-        string columns[100] = "";
         cin>>dump;
 
-        // for(int i=0; i<100; i++) 
-        //     columns[i] = "";
+        for(int i=0; i<100; i++) 
+            columns[i] = "";
         
         readColumns(columns);        
 
