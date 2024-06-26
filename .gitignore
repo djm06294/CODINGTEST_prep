@@ -2,3 +2,5 @@
 
 # ignore all ! starting files (못푼 문제)
 **/!*
+
+.vscode
