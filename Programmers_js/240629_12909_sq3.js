@@ -21,7 +21,7 @@ function solution(s) {
 
 // 외
 // 훨씬 간단하게 구현이 되는구나.. 사실 괄호 종류가 하나니까 열린괄호 숫자만 잘 체크해주면 문제가 풀리네.
-function solution(s){
+function solution(s) {
     let cum = 0
     for (let paren of s) {
         cum += paren === '('? 1: -1
@@ -32,8 +32,9 @@ function solution(s){
     return cum === 0? true: false;
 }
 
-// 1. Array의 match 함수: /.../ 사이에 정규표현식을 사용하여 이용한다. 이 코드에서 "/(\(|\))/g"는 왼괄호나 오른괄호를 모두 찾아서 array로 반환하는 것이다.
-// 알고리즘이 신기한데 처음 괄호가 열린괄호고 총 괄호 갯수가 짝수라면 true, 아니면 false를 반환한다. 하지만 보니까 ())( 이런 경우에도 통과 되므로 문제를 통과하진 못한다. 이전에 어떻게 통과했지?
+// 
+// 1. Array의 match 함수: /.../ 사이에 정규표현식을 사용하여 이용한다. 이 코드에서 "/ ( \( | \) ) /g"는 왼괄호나 오른괄호를 모두 찾아서 array로 반환하는 것이다.
+// 알고리즘이 신기한데 처음 괄호가 열린괄호고 총 괄호 갯수가 짝수라면 true, 아니면 false를 반환한다. 하지만 보니까 ())( 이런 경우에도 true를 반환하므로 문제 통과 불가능.
 function is_pair(s){
     var result = s.match(/(\(|\))/g);
     return result[0] == '(' && result.length % 2 == 0 ? true : false
