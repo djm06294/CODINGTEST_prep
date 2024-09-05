@@ -1,5 +1,5 @@
 /*
- * Programmers FE DevCourse 8th week ... (1)
+ * Programmers FE DevCourse 8th week ... (2)
  * Author: 김주영
  * Date: 24. 9. 4
  * Prob Number: 136798
